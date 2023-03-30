@@ -16,3 +16,4 @@ C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\Ho
 C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.pdb
 C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.genruntimeconfig.cache
 C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\ref\HomesteaderUSA.dll
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Login.resources
