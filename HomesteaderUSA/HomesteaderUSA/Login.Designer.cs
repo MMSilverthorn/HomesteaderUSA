@@ -38,6 +38,7 @@
             comboBox1 = new ComboBox();
             UserNameTextBox = new TextBox();
             PasswordTextBox = new TextBox();
+            CloseProgram = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -46,7 +47,7 @@
             LoginButton.BackColor = Color.ForestGreen;
             LoginButton.Font = new Font("Century Schoolbook", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             LoginButton.ForeColor = Color.Black;
-            LoginButton.Location = new Point(119, 325);
+            LoginButton.Location = new Point(106, 358);
             LoginButton.Name = "LoginButton";
             LoginButton.Size = new Size(89, 31);
             LoginButton.TabIndex = 0;
@@ -58,7 +59,8 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Century Schoolbook", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label1.Location = new Point(69, 9);
+            label1.ForeColor = Color.Maroon;
+            label1.Location = new Point(69, 34);
             label1.Name = "label1";
             label1.Size = new Size(186, 23);
             label1.TabIndex = 1;
@@ -69,7 +71,7 @@
             // 
             UserNameLabel.AutoSize = true;
             UserNameLabel.Font = new Font("Century Schoolbook", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            UserNameLabel.Location = new Point(35, 202);
+            UserNameLabel.Location = new Point(26, 240);
             UserNameLabel.Name = "UserNameLabel";
             UserNameLabel.Size = new Size(82, 16);
             UserNameLabel.TabIndex = 2;
@@ -80,7 +82,7 @@
             // 
             PasswordLabel.AutoSize = true;
             PasswordLabel.Font = new Font("Century Schoolbook", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            PasswordLabel.Location = new Point(35, 244);
+            PasswordLabel.Location = new Point(26, 293);
             PasswordLabel.Name = "PasswordLabel";
             PasswordLabel.Size = new Size(74, 16);
             PasswordLabel.TabIndex = 3;
@@ -91,7 +93,7 @@
             // 
             ResetButton.AutoSize = true;
             ResetButton.Font = new Font("Century Schoolbook", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
-            ResetButton.Location = new Point(134, 369);
+            ResetButton.Location = new Point(119, 410);
             ResetButton.Name = "ResetButton";
             ResetButton.Size = new Size(54, 16);
             ResetButton.TabIndex = 4;
@@ -101,7 +103,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
-            pictureBox1.Location = new Point(106, 58);
+            pictureBox1.Location = new Point(106, 82);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(102, 59);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -115,7 +117,7 @@
             comboBox1.Font = new Font("Century Schoolbook", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
             comboBox1.Items.AddRange(new object[] { "Admin", "Employee" });
-            comboBox1.Location = new Point(106, 146);
+            comboBox1.Location = new Point(106, 176);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(108, 24);
             comboBox1.TabIndex = 6;
@@ -124,7 +126,7 @@
             // 
             // UserNameTextBox
             // 
-            UserNameTextBox.Location = new Point(134, 195);
+            UserNameTextBox.Location = new Point(134, 233);
             UserNameTextBox.Name = "UserNameTextBox";
             UserNameTextBox.Size = new Size(121, 23);
             UserNameTextBox.TabIndex = 7;
@@ -132,18 +134,30 @@
             // 
             // PasswordTextBox
             // 
-            PasswordTextBox.Location = new Point(134, 237);
+            PasswordTextBox.Location = new Point(134, 286);
             PasswordTextBox.Name = "PasswordTextBox";
             PasswordTextBox.Size = new Size(121, 23);
             PasswordTextBox.TabIndex = 8;
             PasswordTextBox.TextChanged += PasswordTextBox_TextChanged;
+            // 
+            // CloseProgram
+            // 
+            CloseProgram.AutoSize = true;
+            CloseProgram.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            CloseProgram.Location = new Point(283, 9);
+            CloseProgram.Name = "CloseProgram";
+            CloseProgram.Size = new Size(20, 21);
+            CloseProgram.TabIndex = 9;
+            CloseProgram.Text = "X";
             // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.ButtonFace;
+            BackgroundImageLayout = ImageLayout.None;
             ClientSize = new Size(315, 454);
+            Controls.Add(CloseProgram);
             Controls.Add(PasswordTextBox);
             Controls.Add(UserNameTextBox);
             Controls.Add(comboBox1);
@@ -173,5 +187,6 @@
         private ComboBox comboBox1;
         private TextBox UserNameTextBox;
         private TextBox PasswordTextBox;
+        private Label CloseProgram;
     }
 }
