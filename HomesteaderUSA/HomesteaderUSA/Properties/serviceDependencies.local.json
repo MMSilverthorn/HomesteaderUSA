@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "type": "secrets.user"
+    },
+    "mssql1": {
+      "secretStore": "LocalSecretsFile",
+      "type": "mssql.local",
+      "connectionId": "ConnectionStrings:DataSource=(LocalDB):MSSQLLocalDB;AttachDbFilename=C::Users:msilv:OneDrive:Documents:HomesteaderUSA.mdf;IntegratedSecurity=True;ConnectTimeout=30"
+    }
+  }
+}

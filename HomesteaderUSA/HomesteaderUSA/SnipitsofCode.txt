@@ -1,0 +1,49 @@
+﻿Animals.cs
+
+HomesteaderUSA.mdf
+	Tables
+		AnTbl
+			CREATE TABLE [dbo].[AnTbl] (
+    [AnId]     INT           IDENTITY (1000, 1) NOT NULL,
+    [AnName]   VARCHAR (50)  NOT NULL,
+    [EarTag]   VARCHAR (50)  NOT NULL,
+    [Type]     VARCHAR (50)  NOT NULL,
+    [Purpose]  VARCHAR (50)  NOT NULL,
+    [Breed]    VARCHAR (50)  NOT NULL,
+    [DScript]  VARCHAR (50)  NOT NULL,
+    [DOB]      DATE          NOT NULL,
+    [Age]      INT           NOT NULL,
+    [WtBirth]  INT           NOT NULL,
+    [Location] VARCHAR (50)  NOT NULL,
+    [Note]     VARCHAR (100) NOT NULL,
+    PRIMARY KEY CLUSTERED ([AnId] ASC)
+);
+-------------------------------------------
+
+using System.Data.SqlClient;
+
+SqlConnection Con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\msilv\OneDrive\Documents\HomesteaderUSA.mdf;Integrated Security=True;Connect Timeout=30")
+
+Double Click Save Button to set into code
+int age = 0
+private void button_1 click (object sender, etc.)
+{
+   if (AnNameTb.Text == "" || EarTagTb.Text == "" || TypeTb.Text == "" || PurposeTb.Text == "" || BreedTb.Text == "" || DScriptTb.Text == "" || AgeTb.Text == "" || WtBirthTb.Text == "" || LocationTb.Text == "" || NoteTb.Text == "" )
+      {
+      MessageBox.Show ("Missing Information");
+      }
+      else
+      {
+      try
+       {
+       Con.Open();
+       ///"insert into AnTbl values"
+       string Query = (' " + AnNameTb.Text + " ',' " + EarTagTb.Text + " ',' " + TupeTb.Text + " ', ' " + PurposeTb.Text + " ', ' " + BreedTb.Text + " ','  + age +  ', ' " + AnNameTb.Text + " ',' " + WtBirthTb.Text + " ',' " + LocationTb.Text + " ',' " + NoteTb.Text + " ')";
+      
+      SqlCommand cmd = new SqlCommand (Query,Con);
+      
+       Con.Clopse();
+                  MessageBox.Show ("Animal Saved Successfuly");
+       }
+      }
+}

@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Dashboard));
             BottomPanel = new Panel();
-            Users = new Label();
             label6 = new Label();
             label5 = new Label();
             label4 = new Label();
@@ -38,8 +37,8 @@
             DashboardLabel = new Label();
             label1 = new Label();
             TopPanel = new Panel();
-            label2 = new Label();
             CloseProgram = new Label();
+            label2 = new Label();
             BottomPanel.SuspendLayout();
             TopPanel.SuspendLayout();
             SuspendLayout();
@@ -47,7 +46,6 @@
             // BottomPanel
             // 
             BottomPanel.BackColor = Color.Maroon;
-            BottomPanel.Controls.Add(Users);
             BottomPanel.Controls.Add(label6);
             BottomPanel.Controls.Add(label5);
             BottomPanel.Controls.Add(label4);
@@ -57,18 +55,6 @@
             BottomPanel.Size = new Size(1159, 108);
             BottomPanel.TabIndex = 1;
             BottomPanel.Paint += BottomPanel_Paint;
-            // 
-            // Users
-            // 
-            Users.AutoSize = true;
-            Users.Font = new Font("Century Schoolbook", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            Users.ForeColor = SystemColors.ButtonFace;
-            Users.Location = new Point(798, 40);
-            Users.Name = "Users";
-            Users.Size = new Size(67, 23);
-            Users.TabIndex = 5;
-            Users.Text = "Users";
-            Users.Click += Users_Click;
             // 
             // label6
             // 
@@ -87,7 +73,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Century Schoolbook", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label5.ForeColor = SystemColors.ButtonFace;
-            label5.Location = new Point(546, 40);
+            label5.Location = new Point(662, 40);
             label5.Name = "label5";
             label5.Size = new Size(101, 23);
             label5.TabIndex = 3;
@@ -99,7 +85,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Century Schoolbook", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = SystemColors.ButtonFace;
-            label4.Location = new Point(341, 40);
+            label4.Location = new Point(385, 40);
             label4.Name = "label4";
             label4.Size = new Size(74, 23);
             label4.TabIndex = 2;
@@ -151,6 +137,17 @@
             TopPanel.TabIndex = 0;
             TopPanel.Paint += TopPanel_Paint;
             // 
+            // CloseProgram
+            // 
+            CloseProgram.AutoSize = true;
+            CloseProgram.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            CloseProgram.Location = new Point(1127, 9);
+            CloseProgram.Name = "CloseProgram";
+            CloseProgram.Size = new Size(20, 21);
+            CloseProgram.TabIndex = 1;
+            CloseProgram.Text = "X";
+            CloseProgram.Click += CloseProgram_Click;
+            // 
             // label2
             // 
             label2.AutoSize = true;
@@ -162,17 +159,6 @@
             label2.TabIndex = 6;
             label2.Text = "Ver 1.0  ";
             label2.Click += label2_Click;
-            // 
-            // CloseProgram
-            // 
-            CloseProgram.AutoSize = true;
-            CloseProgram.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            CloseProgram.Location = new Point(1127, 9);
-            CloseProgram.Name = "CloseProgram";
-            CloseProgram.Size = new Size(20, 21);
-            CloseProgram.TabIndex = 1;
-            CloseProgram.Text = "X";
-            CloseProgram.Click += CloseProgram_Click;
             // 
             // Dashboard
             // 
@@ -206,7 +192,6 @@
         private Label DashboardLabel;
         private Label label6;
         private Label label5;
-        private Label Users;
         private Label label1;
         private Panel TopPanel;
         private Label label2;
