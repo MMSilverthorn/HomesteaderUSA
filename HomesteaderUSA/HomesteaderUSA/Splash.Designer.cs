@@ -50,6 +50,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Century Schoolbook", 24F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.DarkRed;
             label1.Location = new Point(170, 35);
             label1.Name = "label1";
             label1.Size = new Size(310, 37);

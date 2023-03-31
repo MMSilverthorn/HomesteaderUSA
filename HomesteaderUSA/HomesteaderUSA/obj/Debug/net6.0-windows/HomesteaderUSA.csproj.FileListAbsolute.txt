@@ -17,3 +17,13 @@ C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\Ho
 C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.genruntimeconfig.cache
 C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\ref\HomesteaderUSA.dll
 C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Login.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Dashboard.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Animals.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Milk.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Journal.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Product.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Breed.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Finances.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Health.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Plants.resources
+C:\Users\msilv\OneDrive\Desktop\Code Louisville\HomesteaderUSA\HomesteaderUSA\HomesteaderUSA\obj\Debug\net6.0-windows\HomesteaderUSA.Users.resources
