@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Breed));
             BreedDGV = new DataGridView();
             label2 = new Label();
@@ -71,6 +72,7 @@
             label9 = new Label();
             dateTimePicker5 = new DateTimePicker();
             label12 = new Label();
+            comboBoxBindingSource = new BindingSource(components);
             ((System.ComponentModel.ISupportInitialize)BreedDGV).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel4.SuspendLayout();
@@ -80,6 +82,7 @@
             panel10.SuspendLayout();
             panel3.SuspendLayout();
             SidePanel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)comboBoxBindingSource).BeginInit();
             SuspendLayout();
             // 
             // BreedDGV
@@ -468,6 +471,7 @@
             // comboBox1
             // 
             comboBox1.BackColor = SystemColors.ButtonFace;
+            comboBox1.DataSource = comboBoxBindingSource;
             comboBox1.Font = new Font("Century Schoolbook", 9.75F, FontStyle.Bold, GraphicsUnit.Point);
             comboBox1.FormattingEnabled = true;
             comboBox1.Location = new Point(305, 142);
@@ -533,6 +537,10 @@
             label12.TabIndex = 79;
             label12.Text = "Delivery";
             // 
+            // comboBoxBindingSource
+            // 
+            comboBoxBindingSource.DataSource = typeof(ComboBox);
+            // 
             // Breed
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -586,6 +594,7 @@
             panel3.PerformLayout();
             SidePanel.ResumeLayout(false);
             SidePanel.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)comboBoxBindingSource).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -634,5 +643,6 @@
         private Label label9;
         private DateTimePicker dateTimePicker5;
         private Label label12;
+        private BindingSource comboBoxBindingSource;
     }
 }

@@ -310,7 +310,7 @@
             // 
             CloseProgram.AutoSize = true;
             CloseProgram.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            CloseProgram.Location = new Point(1136, 0);
+            CloseProgram.Location = new Point(1105, 5);
             CloseProgram.Name = "CloseProgram";
             CloseProgram.Size = new Size(20, 21);
             CloseProgram.TabIndex = 22;
